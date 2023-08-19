@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <!--<script src="https://kit.fontawesome.com/bd08c0806b.js" crossorigin="anonymous"></script>-->
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo">Portfolio</div>
+        <div id="navlinks">
+            <ul>
+                <li><a href="#navbar">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#bgcolor">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="sections" id="home">
+        <div id="content">
+            <h1 style="color: rgba(255, 255, 255, 0.751);">Hello Everyone</h1>
+            <h3 style="color: rgba(255, 255, 255, 0.751);">My name is</h3>
+            <br>
+            <h1 style="color: coral;">Ranjeet Kumar</h1>
+            <br>
+            <h3 style="color: rgba(255, 255, 255, 0.751);">And I am a</h3>
+            <h3 style="color: coral;">Web Developer</h3>
+            <button id="hire">Hire Now</button>
+        </div>
+        <div id="image">
+            <img src="me.jpg" id="img">
+        </div>
+        
+    </section>
+
+    <section class="sections" id="about">
+        <h1 class="headings">About Me</h1>
+        <div id="about-content">
+            <p>Hello , I'm <span>Ranjeet Kumar</span> belong from Deoria Gorakhpur Uttar Pradesh India. Currently I'm pursuing B.Tech Hons in AI & ML. I'm 3rd year student.I Want to build my Carrier in Data Science and Artificial Intelligence. I have described my self in few words. I'm looking forward to work in Individual and Group as well. Your Invitation are heartly Welcomed. </p>
+            <p>I have completed various internships such as App Development from NetCamp Pvt. Ltd. and Web Development using Html, Css, and javascript from Growth Ninjas.</p><br>
+            <p>My hobbies are blogging and chess.</p><br>
+           
+            <h2>Education Info :-</h2><br>
+                <ul>
+                    <li>Bachelor of Technology (B.Tech), Computer Science & Engineering Specialization In Artificial Intelligence And Machine Learning
+                        <br>
+                        COER UNIVERSITY ROORKEE
+                        <br>
+                        2021-2025
+                    </li>
+                    <br>
+                    <li>Senior Secondary (XII), Science
+                        <br>
+                        SSYICPJ Jamuan Dumwaliya Deoria
+                        <br>
+                        (UTTAR PRADESH MADHYAMIK SHIKSHA PARISHAD PRAYAGRAJ board)
+                        <br>
+                        Year of completion: 2020
+                    </li>
+                    <br>
+                    <li>
+                        Secondary (X)
+                        <br>
+                        Little Flower School Salempur Deoria
+                        <br>
+                        (INDIAN SCHOOL CERTIFICATE EXAMINATION board)
+                        <br>
+                        Year of completion: 2017
+                    </li>
+                  </ul><br>
+            <h2>Professional Experience:-</h2><br>
+            <p>My technical skills are:-</p><br>
+            <p>HTML</p>
+            <div class="progressbar">
+                <div class="html">80%</div>
+            </div>
+            <br>
+            <p>CSS</p>
+            <div class="progressbar">
+                <div class="css">75%</div>
+            </div>
+            <br>
+            <p>JavaScript</p>
+            <div class="progressbar">
+                <div class="javascript">65%</div>
+            </div>
+            <br>
+            <p>Python</p>
+            <div class="progressbar">
+                <div class="Python">70%</div>
+            </div>
+            <br>
+            <p>C Programming Language</p>
+            <div class="progressbar">
+                <div class="c">75%</div>
+            </div>
+            <br>
+            <p>Java</p>
+            <div class="progressbar">
+                <div class="java">70%</div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sections" id="color">
+        <h1 class="headings">My Skills</h1>
+        <br>
+        <div id="skills">
+            <div class="skill">
+                <a href=""><i class="fa-solid fa-code"></i></a>
+                <br>
+                <h1>Web Development</h1>
+            </div>
+            <div class="skill">
+                <a href=""><i class="fa-brands fa-blogger"></i></a>
+                <br>
+                <h1>AI/ML</h1>
+            </div>
+            <div class="skill">
+                <a href=""><i class="fa-solid fa-c"></i></a>
+                <br>
+                <h1>C-Programming</h1>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="sections" id="bgcolor">
+        <h1 class="headings">My Projects</h1>
+        <br>
+        <div id="projects">
+            <div class="project">
+                <h1>Car Price Prediction</h1>
+                <img src="car.png" width="300px">
+            </div>
+            <div class="project">
+                <h1>ATM machine clone</h1>
+                <img src="atm.jpg" width="300px">
+            </div>
+            <div class="project">
+                <h1>QR Code Generator</h1>
+                <img src="qrcode.jpg" width="300px">
+            </div>
+           
+        
+    </section>
+    
+    <section id="contact" class="sections">
+        <h1 class="headings">Contact</h1>
+        <form action="#">
+            <label for="fname">First Name:</label>
+            <input type="text" class="input"><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" class="input"><br>
+            <label for="number">Mobile no:</label>
+            <input type="number" class="input"><br>
+            <label for="message">Your Message:</label>
+            <textarea id="message" cols="30" rows="10" class="input"></textarea>
+            <button id="submit">Submit</button>
+        </form>
+    </section>
+
+    <section class="sections" id="footer">
+        <p>Copyright (c) 2023 My Portfolio all rights reserved.</p>
+    </section>
+
+</body>
+</html>

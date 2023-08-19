@@ -1,0 +1,489 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:Arial;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.headings{
+    color:coral;
+    font-size: xx-large;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+/* Navbar */
+
+#navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+}
+
+#logo{
+    font-size: xx-large;
+    margin-left:20px;
+    color:coral;
+    letter-spacing: 1px;
+}
+
+#navlinks{
+    margin-right: 30px;
+}
+
+
+#navlinks ul li{
+    display:inline-block;
+    margin-right:30px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: all 0.1s ease;
+}
+
+#navlinks ul li:hover{
+    border: 2px solid coral;
+    box-shadow: 3px 3px 10px coral;
+}
+
+#navlinks ul li a{
+    text-decoration: none;
+    color: coral;
+    font-size: large;
+    letter-spacing: 1px;
+}
+
+/* Home */
+
+.sections{
+    padding: 20px;
+}
+
+#home{
+    display: flex;
+    justify-content:space-between ;
+    background:linear-gradient(to bottom,black,rgba(0, 0, 0, 0.67));
+    padding-bottom: 60px;
+}
+
+#img{
+    position: relative;
+    top:100px;
+    right:100px
+}
+
+#content{
+    position: relative;
+    top: 40px;
+    left:100px;
+    font-size: 45px;
+    word-spacing: 3px;
+    letter-spacing: 4px;
+    line-height: 70px;
+    
+}
+
+#hire{
+    padding: 10px 20px;
+    font-size:large ;
+    border:2px solid coral;
+    color:coral;
+    border-radius: 3px;
+    background-color: transparent;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#hire:hover{
+    background-color: coral;
+    color:white;
+    box-shadow: 3px 3px 12px black;
+}
+
+/* About */
+
+#about{
+    
+    background:linear-gradient(to bottom,rgba(0, 0, 0, 0.67),black);
+}
+
+#about-content{
+    color:white;
+    border: 2px solid coral;
+    padding:20px;
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: justify;
+    word-spacing: 3px;
+}
+
+.progressbar{
+    background-color: grey;
+    width:100%;
+    text-align: right;
+    border-radius:20px ;
+    margin-top: 5px;
+    height: 20px;
+    color:black;
+    
+}
+
+.progressbar .html{
+    background-color: coral;
+    width:80%;
+    border-radius:20px;
+    height: 20px;
+    font-size: 18px;
+    padding-right: 10px;
+    
+}
+
+.progressbar .css{
+    background-color: coral;
+    width:75%;
+    border-radius:20px;
+    height: 20px;
+    font-size: 18px;
+    padding-right: 10px;
+  
+}
+
+.progressbar .javascript{
+    background-color: coral;
+    width:65%;
+    border-radius:20px;
+    height: 20px;
+    font-size: 18px;
+    padding-right: 10px;
+   
+}
+
+.progressbar .Python{
+    background-color: coral;
+    width:70%;
+    border-radius:20px;
+    height: 20px;
+    font-size: 18px;
+    padding-right: 10px;
+   
+}
+
+.progressbar .c{
+    background-color: coral;
+    width:75%;
+    border-radius:20px;
+    height: 20px;
+    font-size: 18px;
+    padding-right: 10px;
+    
+}
+
+.progressbar .java{
+    background-color: coral;
+    width:70%;
+    border-radius:20px;
+    height: 20px;
+    font-size: 18px;
+    padding-right: 10px;
+   
+}
+
+/* Skills */
+
+#color{
+    background:linear-gradient(to top,rgba(0, 0, 0, 0.67),black);
+}
+
+#skills{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:50px;
+    box-shadow: 5px 5px 12px rgb(255, 75, 9);
+}
+
+.skill{
+    border:2px solid coral;
+    border-radius: 5px;
+    text-align: center;
+    width:300px;
+    padding:20px;
+    margin:20px;
+    line-height: 100px;
+    
+    color:white;
+    transition: all 0.1s ease;
+}
+
+.skill:hover i{
+    color:rgb(255, 75, 9)
+
+}
+
+.skill:hover{
+    box-shadow: 5px 5px 12px rgb(255, 75, 9);
+    border-color: rgb(255, 75, 9);
+}
+
+.skill a{
+    font-size: 200px;
+}
+
+.fa-code,.fa-brands,.fa-c{
+    color:coral
+}
+
+/* Projects */
+
+#bgcolor{
+    background:linear-gradient(to bottom,rgba(0, 0, 0, 0.67),black);
+}
+
+#projects{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:50px;
+    box-shadow: 5px 5px 12px rgb(255, 75, 9);
+    flex-wrap: wrap;
+}
+
+.project{
+    border:2px solid coral;
+    border-radius: 5px;
+    text-align: center;
+    width:400px;
+    margin-bottom: 20px;
+    line-height: 100px;
+    color:white;
+    text-shadow: none;
+    transition: all 0.7s smooth;
+}
+
+.project:hover{
+    box-shadow: 5px 5px 12px rgb(255, 75, 9);
+    border-color: rgb(255, 75, 9);
+}
+
+/* Contact */
+
+#contact{
+    background:linear-gradient(to top,rgba(0, 0, 0, 0.67),black);
+    color: white;
+}
+
+#contact form{
+    box-shadow: 5px 5px 12px rgb(255, 75, 9);
+    padding: 20px;
+    display: grid;
+    margin-top: 50px;
+    justify-content: center;
+    line-height: 50px;
+    font-size: larger;
+}
+
+#contact form .input{
+    border:2px solid rgb(255, 75, 9);
+    box-shadow: 5px 5px 12px rgb(255, 75, 9);
+    border-radius: 5px;
+    width: 400px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: large;
+}
+
+#contact form #submit{
+    padding: 10px 20px;
+    font-size:large ;
+    border:none;
+    background-color:coral;
+    color: white;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.2s ease; 
+    margin-top: 30px;  
+}
+
+#contact form #submit:hover{
+    background-color: rgb(255, 75, 9);
+    box-shadow: 5px 5px 12px rgb(0, 0, 0);
+}
+
+/* footer */
+
+#footer{
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    color: white;
+    background:linear-gradient(to bottom,rgba(0, 0, 0, 0.67),rgba(0, 0, 0, 0.821));
+    padding-top: 100px;
+    text-align: center
+}
+
+@media screen and (max-width:1258px) 
+{
+    #content{
+        position: relative;
+        top: 40px;
+        left:80px;
+        font-size: 35px;
+        word-spacing: 2px;
+        letter-spacing: 2px;
+        line-height: 70px;
+        
+    }
+}
+
+@media screen and (max-width:980px) 
+{
+
+    #img{
+        width:400px;
+        position: relative;
+        right: 10px;
+        
+    }
+}
+
+@media screen and (max-width:870px) 
+{
+
+    #img{
+        width:350px
+    }    
+    #content{
+        position: relative;
+        top: 40px;
+        left:60px;
+        font-size: 30px;
+        word-spacing: 2px;
+        letter-spacing: 2px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width:765px) 
+{
+    #navbar{
+        display:grid;
+    }
+
+    #logo{
+        text-align: center;
+    }
+
+    #navlinks{
+        margin:20px 0px;
+    }
+}
+
+@media screen and (max-width:680px) 
+{
+    #navlinks ul li{
+        display:inline-block;
+        margin:5px 30px
+    }
+
+    #navlinks{
+        text-align: center;
+    }
+
+    #img{
+        width:200px;
+        position: relative;
+        top:20px;
+    }
+
+    #content{
+        position: relative;
+        top: 30px;
+        left:60px;
+        font-size: 20px;
+        word-spacing: 2px;
+        letter-spacing: 2px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width:490px) 
+{
+    #navbar{
+        padding:10px
+    }
+
+    #img{
+        width:130px;
+        position: relative;
+        top:10px;
+    }
+
+    #content{
+        position: relative;
+        top: 30px;
+        left:10px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    #skills{
+        padding:10px;
+    }
+    .skill{
+        line-height: 50px;
+    }
+
+    .project{
+        padding:10px
+    }
+
+    #contact form .input{
+        width:300px;
+        padding:5px
+    }
+
+    #about-content{
+        font-size: 20px;
+    }
+
+    #hire{
+        padding:5px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:360px) 
+{
+    
+    .skill{
+        line-height: 50px;
+    }
+
+    .project{
+        padding:10px;
+        width:300px;
+        line-height: 50px;
+    }
+
+    #projects img{
+        width:200px
+    }
+
+    #contact form{
+        line-height: 40px;
+    }
+
+    #contact form .input{
+        width:220px;
+        padding:5px
+    }
+
+}
